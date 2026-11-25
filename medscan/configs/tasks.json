@@ -1,0 +1,13 @@
+[
+  {"name": "xray_pneumonia",   "modality": "xray",           "source": "medmnist", "flag": "pneumoniamnist", "enabled": true},
+  {"name": "xray_chest14",     "modality": "xray",           "source": "medmnist", "flag": "chestmnist",     "enabled": false},
+  {"name": "ct_organ",         "modality": "ct",             "source": "medmnist", "flag": "organamnist",    "enabled": true, "hflip": false},
+  {"name": "us_breast",        "modality": "ultrasound",     "source": "medmnist", "flag": "breastmnist",    "enabled": true},
+  {"name": "derm_lesion",      "modality": "dermoscopy",     "source": "medmnist", "flag": "dermamnist",     "enabled": true},
+  {"name": "fundus_dr",        "modality": "fundus",         "source": "medmnist", "flag": "retinamnist",    "enabled": true},
+  {"name": "histo_colon",      "modality": "histopathology", "source": "medmnist", "flag": "pathmnist",      "enabled": true},
+
+  {"name": "xray_covid",       "modality": "xray",           "source": "folder",   "path": "data/covid_xray",  "enabled": false},
+  {"name": "ct_chest_cancer",  "modality": "ct",             "source": "folder",   "path": "data/chest_ct",    "enabled": false, "hflip": false},
+  {"name": "mri_brain_tumor",  "modality": "mri",            "source": "folder",   "path": "data/brain_mri",   "enabled": false, "hflip": false}
+]

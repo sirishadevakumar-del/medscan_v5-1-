@@ -1,0 +1,15 @@
+torch>=2.0
+torchvision>=0.15
+numpy
+scikit-learn
+opencv-python-headless
+matplotlib
+pillow
+tqdm
+medmnist>=3.0      # public multi-modality benchmark data (auto-download)
+streamlit          # demo app
+pydicom            # optional: read .dcm files
+nibabel            # optional: read .nii / .nii.gz volumes
+plotly             # interactive 3D viewer and progression graphs
+reportlab          # PDF report
+scipy
